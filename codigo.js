@@ -22,8 +22,8 @@ function calcularIMC(peso, altura) {
     };
 }
 
-let peso = 70; // kg
-let altura = 1.75; // metros
+let peso = 70;
+let altura = 1.75;
 
 let resultado = calcularIMC(peso, altura);
 console.log("IMC:", resultado.imc);
